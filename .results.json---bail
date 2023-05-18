@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2023-05-18T21:21:50.828Z",
+    "end": "2023-05-18T21:21:50.963Z",
+    "duration": 135
+  },
+  "tests": [
+    {
+      "title": "returns an array of thank you messages for each name provided to the function",
+      "fullTitle": "index.js writeCards() returns an array of thank you messages for each name provided to the function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to deeply equal [ …(3) ]",
+        "showDiff": true,
+        "expected": [
+          "Thank you, Guadalupe, for the wonderful surprise gift!",
+          "Thank you, Ollie, for the wonderful surprise gift!",
+          "Thank you, Aki, for the wonderful surprise gift!"
+        ],
+        "operator": "deepStrictEqual",
+        "stack": "AssertionError: expected undefined to deeply equal [ …(3) ]\n    at Context.<anonymous> (test/indexTest.js:19:77)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "invokes console.log once for each number, counting down from the number provided to zero",
+      "fullTitle": "index.js countDown() invokes console.log once for each number, counting down from the number provided to zero",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:33:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "countDown is not defined"
+      }
+    },
+    {
+      "title": "logs each number when counting down, starting from the number provided",
+      "fullTitle": "index.js countDown() logs each number when counting down, starting from the number provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "countDown is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns an array of thank you messages for each name provided to the function",
+      "fullTitle": "index.js writeCards() returns an array of thank you messages for each name provided to the function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to deeply equal [ …(3) ]",
+        "showDiff": true,
+        "expected": [
+          "Thank you, Guadalupe, for the wonderful surprise gift!",
+          "Thank you, Ollie, for the wonderful surprise gift!",
+          "Thank you, Aki, for the wonderful surprise gift!"
+        ],
+        "operator": "deepStrictEqual",
+        "stack": "AssertionError: expected undefined to deeply equal [ …(3) ]\n    at Context.<anonymous> (test/indexTest.js:19:77)\n    at process.processImmediate (node:internal/timers:476:21)"
+      }
+    },
+    {
+      "title": "invokes console.log once for each number, counting down from the number provided to zero",
+      "fullTitle": "index.js countDown() invokes console.log once for each number, counting down from the number provided to zero",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:33:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "countDown is not defined"
+      }
+    },
+    {
+      "title": "logs each number when counting down, starting from the number provided",
+      "fullTitle": "index.js countDown() logs each number when counting down, starting from the number provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "countDown is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
